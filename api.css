@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Roboto;
+    color: #fff !important;
+    background: #343434;
+    background-color: #343434 !important;
+}
+.container{
+    width: 26%;
+}
+.card{
+    border-radius: 50px;
+    background: #343434 !important;
+    box-shadow: 5px 5px 10px #191b1b, -5px -5px 10px #595959;
+    padding: 3%;
+    text-align: center;
+}
+.card h4{
+    font-size: 4rem;
+    font-weight: 400;
+    margin: 1rem 0;
+}
+img #icon{
+    width: 40%;
+    display: block;
+}
+h6 #weather{
+    text-transform: uppercase;
+}
+button.refresh{
+    display: block;
+    width: 100px;
+    margin: 10px auto;
+    align-self: center;
+    font-size: 30px;
+    border: 0;
+    color: #fff;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 10px 4px 10px #252525, 5px 5px 18px #4a4a44;
+}
+button.refresh:hover{
+    box-shadow: inset 10px 10px 4px #252525, inset 5px 5px 5px #4a4a44;
+}
